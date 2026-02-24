@@ -1,4 +1,4 @@
-// PicoClaw - Ultra-lightweight personal AI agent
+// PlanckClaw - Ultra-lightweight personal AI agent
 // WeCom App (企业微信自建应用) channel implementation
 // Supports receiving messages via webhook callback and sending messages proactively
 
@@ -17,10 +17,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sipeed/picoclaw/pkg/bus"
-	"github.com/sipeed/picoclaw/pkg/config"
-	"github.com/sipeed/picoclaw/pkg/logger"
-	"github.com/sipeed/picoclaw/pkg/utils"
+	"github.com/baso53/planckclaw/pkg/bus"
+	"github.com/baso53/planckclaw/pkg/config"
+	"github.com/baso53/planckclaw/pkg/logger"
+	"github.com/baso53/planckclaw/pkg/utils"
 )
 
 const (

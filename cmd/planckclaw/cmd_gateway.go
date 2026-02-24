@@ -1,4 +1,4 @@
-// PicoClaw - Ultra-lightweight personal AI agent
+// PlanckClaw - Ultra-lightweight personal AI agent
 // License: MIT
 
 package main
@@ -13,19 +13,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sipeed/picoclaw/pkg/agent"
-	"github.com/sipeed/picoclaw/pkg/bus"
-	"github.com/sipeed/picoclaw/pkg/channels"
-	"github.com/sipeed/picoclaw/pkg/config"
-	"github.com/sipeed/picoclaw/pkg/cron"
-	"github.com/sipeed/picoclaw/pkg/devices"
-	"github.com/sipeed/picoclaw/pkg/health"
-	"github.com/sipeed/picoclaw/pkg/heartbeat"
-	"github.com/sipeed/picoclaw/pkg/logger"
-	"github.com/sipeed/picoclaw/pkg/providers"
-	"github.com/sipeed/picoclaw/pkg/state"
-	"github.com/sipeed/picoclaw/pkg/tools"
-	"github.com/sipeed/picoclaw/pkg/voice"
+	"github.com/baso53/planckclaw/pkg/agent"
+	"github.com/baso53/planckclaw/pkg/bus"
+	"github.com/baso53/planckclaw/pkg/channels"
+	"github.com/baso53/planckclaw/pkg/config"
+	"github.com/baso53/planckclaw/pkg/cron"
+	"github.com/baso53/planckclaw/pkg/devices"
+	"github.com/baso53/planckclaw/pkg/health"
+	"github.com/baso53/planckclaw/pkg/heartbeat"
+	"github.com/baso53/planckclaw/pkg/logger"
+	"github.com/baso53/planckclaw/pkg/providers"
+	"github.com/baso53/planckclaw/pkg/state"
+	"github.com/baso53/planckclaw/pkg/tools"
+	"github.com/baso53/planckclaw/pkg/voice"
 )
 
 func gatewayCmd() {

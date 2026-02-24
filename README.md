@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="assets/logo.jpg" alt="PicoClaw" width="512">
+  <img src="assets/logo.png" alt="PlanckClaw" width="512">
 
-  <h1>PicoClaw: Ultra-Efficient AI Assistant in Go</h1>
+  <h1>PlanckClaw: Ultra-Efficient AI Assistant in Go</h1>
 
   <h3>$10 Hardware · 10MB RAM · 1s Boot · 皮皮虾，我们走！</h3>
 
@@ -10,7 +10,6 @@
     <img src="https://img.shields.io/badge/Arch-x86__64%2C%20ARM64%2C%20RISC--V-blue" alt="Hardware">
     <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
     <br>
-    <a href="https://picoclaw.io"><img src="https://img.shields.io/badge/Website-picoclaw.io-blue?style=flat&logo=google-chrome&logoColor=white" alt="Website"></a>
     <a href="https://x.com/SipeedIO"><img src="https://img.shields.io/badge/X_(Twitter)-SipeedIO-black?style=flat&logo=x&logoColor=white" alt="Twitter"></a>
     <br>
     <a href="./assets/wechat.png"><img src="https://img.shields.io/badge/WeChat-Group-41d56b?style=flat&logo=wechat&logoColor=white"></a>
@@ -23,15 +22,15 @@
 
 ---
 
-🦐 PicoClaw is an ultra-lightweight personal AI Assistant inspired by [nanobot](https://github.com/HKUDS/nanobot), refactored from the ground up in Go through a self-bootstrapping process, where the AI agent itself drove the entire architectural migration and code optimization.
+🦐 PlanckClaw is an ultra-lightweight personal AI Assistant inspired by [nanobot](https://github.com/HKUDS/nanobot), refactored from the ground up in Go through a self-bootstrapping process, where the AI agent itself drove the entire architectural migration and code optimization.
 
-⚡️ Runs on $10 hardware with <10MB RAM: That's 99% less memory than OpenClaw and 98% cheaper than a Mac mini!
+⚡️ **Smallest Possible Claw**: Physically impossible to go smaller — runs on $10 hardware with <10MB RAM. That's 99% less memory than OpenClaw and 98% cheaper than a Mac mini!
 
 <table align="center">
   <tr align="center">
     <td align="center" valign="top">
       <p align="center">
-        <img src="assets/picoclaw_mem.gif" width="360" height="240">
+        <img src="assets/planckclaw_mem.gif" width="360" height="240">
       </p>
     </td>
     <td align="center" valign="top">
@@ -45,25 +44,19 @@
 > [!CAUTION]
 > **🚨 SECURITY & OFFICIAL CHANNELS / 安全声明**
 >
-> * **NO CRYPTO:** PicoClaw has **NO** official token/coin. All claims on `pump.fun` or other trading platforms are **SCAMS**.
+> * **NO CRYPTO:** PlanckClaw has **NO** official token/coin. All claims on `pump.fun` or other trading platforms are **SCAMS**.
 >
-> * **OFFICIAL DOMAIN:** The **ONLY** official website is **[picoclaw.io](https://picoclaw.io)**, and company website is **[sipeed.com](https://sipeed.com)**
 > * **Warning:** Many `.ai/.org/.com/.net/...` domains are registered by third parties.
-> * **Warning:** picoclaw is in early development now and may have unresolved network security issues. Do not deploy to production environments before the v1.0 release.
-> * **Note:** picoclaw has recently merged a lot of PRs, which may result in a larger memory footprint (10–20MB) in the latest versions. We plan to prioritize resource optimization as soon as the current feature set reaches a stable state.
+> * **Warning:** planckclaw is in early development now and may have unresolved network security issues. Do not deploy to production environments before the v1.0 release.
+> * **Note:** planckclaw has recently merged a lot of PRs, which may result in a larger memory footprint (10–20MB) in the latest versions. We plan to prioritize resource optimization as soon as the current feature set reaches a stable state.
 
 ## 📢 News
 
-2026-02-16 🎉 PicoClaw hit 12K stars in one week! Thank you all for your support! PicoClaw is growing faster than we ever imagined. Given the high volume of PRs, we urgently need community maintainers. Our volunteer roles and roadmap are officially posted [here](docs/ROADMAP.md) —we can’t wait to have you on board!
-
-2026-02-13 🎉 PicoClaw hit 5000 stars in 4days! Thank you for the community! There are so many PRs & issues coming in (during Chinese New Year holidays), we are finalizing the Project Roadmap and setting up the Developer Group to accelerate PicoClaw's development.  
-🚀 Call to Action: Please submit your feature requests in GitHub Discussions. We will review and prioritize them during our upcoming weekly meeting.
-
-2026-02-09 🎉 PicoClaw Launched! Built in 1 day to bring AI Agents to $10 hardware with <10MB RAM. 🦐 PicoClaw，Let's Go！
+2026-02-24 🎉 PlanckClaw Launched! Built in 1 day to bring AI Agents to $10 hardware with <10MB RAM. 🦐 PlanckClaw，Let's Go！
 
 ## ✨ Features
 
-🪶 **Ultra-Lightweight**: <10MB Memory footprint — 99% smaller than Clawdbot - core functionality.
+🪶 **Ultra-Lightweight**: <10MB Memory footprint — the smallest possible Claw. It is physically impossible to go any smaller.
 
 💰 **Minimal Cost**: Efficient enough to run on $10 Hardware — 98% cheaper than a Mac mini.
 
@@ -73,14 +66,14 @@
 
 🤖 **AI-Bootstrapped**: Autonomous Go-native implementation — 95% Agent-generated core with human-in-the-loop refinement.
 
-|                               | OpenClaw      | NanoBot                  | **PicoClaw**                              |
+|                               | OpenClaw      | NanoBot                  | **PlanckClaw**                              |
 | ----------------------------- | ------------- | ------------------------ | ----------------------------------------- |
 | **Language**                  | TypeScript    | Python                   | **Go**                                    |
 | **RAM**                       | >1GB          | >100MB                   | **< 10MB**                                |
 | **Startup**</br>(0.8GHz core) | >500s         | >30s                     | **<1s**                                   |
 | **Cost**                      | Mac Mini 599$ | Most Linux SBC </br>~50$ | **Any Linux Board**</br>**As low as 10$** |
 
-<img src="assets/compare.jpg" alt="PicoClaw" width="512">
+<img src="assets/compare.jpg" alt="PlanckClaw" width="512">
 
 ## 🦾 Demonstration
 
@@ -93,9 +86,9 @@
     <th><p align="center">🔎 Web Search & Learning</p></th>
   </tr>
   <tr>
-    <td align="center"><p align="center"><img src="assets/picoclaw_code.gif" width="240" height="180"></p></td>
-    <td align="center"><p align="center"><img src="assets/picoclaw_memory.gif" width="240" height="180"></p></td>
-    <td align="center"><p align="center"><img src="assets/picoclaw_search.gif" width="240" height="180"></p></td>
+    <td align="center"><p align="center"><img src="assets/planckclaw_code.gif" width="240" height="180"></p></td>
+    <td align="center"><p align="center"><img src="assets/planckclaw_memory.gif" width="240" height="180"></p></td>
+    <td align="center"><p align="center"><img src="assets/planckclaw_search.gif" width="240" height="180"></p></td>
   </tr>
   <tr>
     <td align="center">Develop • Deploy • Scale</td>
@@ -106,31 +99,29 @@
 
 ### 📱 Run on old Android Phones
 
-Give your decade-old phone a second life! Turn it into a smart AI Assistant with PicoClaw. Quick Start:
+Give your decade-old phone a second life! Turn it into a smart AI Assistant with PlanckClaw. Quick Start:
 
 1. **Install Termux** (Available on F-Droid or Google Play).
 2. **Execute cmds**
 
 ```bash
 # Note: Replace v0.1.1 with the latest version from the Releases page
-wget https://github.com/sipeed/picoclaw/releases/download/v0.1.1/picoclaw-linux-arm64
-chmod +x picoclaw-linux-arm64
+wget https://github.com/baso53/planckclaw/releases/download/v0.1.1/planckclaw-linux-arm64
+chmod +x planckclaw-linux-arm64
 pkg install proot
-termux-chroot ./picoclaw-linux-arm64 onboard
+termux-chroot ./planckclaw-linux-arm64 onboard
 ```
 
 And then follow the instructions in the "Quick Start" section to complete the configuration!
-<img src="assets/termux.jpg" alt="PicoClaw" width="512">
+<img src="assets/termux.jpg" alt="PlanckClaw" width="512">
 
 ### 🐜 Innovative Low-Footprint Deploy
 
-PicoClaw can be deployed on almost any Linux device!
+PlanckClaw can be deployed on almost any Linux device!
 
 - $9.9 [LicheeRV-Nano](https://www.aliexpress.com/item/1005006519668532.html) E(Ethernet) or W(WiFi6) version, for Minimal Home Assistant
 - $30~50 [NanoKVM](https://www.aliexpress.com/item/1005007369816019.html), or $100 [NanoKVM-Pro](https://www.aliexpress.com/item/1005010048471263.html) for Automated Server Maintenance
 - $50 [MaixCAM](https://www.aliexpress.com/item/1005008053333693.html) or $100 [MaixCAM2](https://www.kickstarter.com/projects/zepan/maixcam2-build-your-next-gen-4k-ai-camera) for Smart Monitoring
-
-<https://private-user-images.githubusercontent.com/83055338/547056448-e7b031ff-d6f5-4468-bcca-5726b6fecb5c.mp4>
 
 🌟 More Deployment Cases Await！
 
@@ -138,14 +129,14 @@ PicoClaw can be deployed on almost any Linux device!
 
 ### Install with precompiled binary
 
-Download the firmware for your platform from the [release](https://github.com/sipeed/picoclaw/releases) page.
+Download the firmware for your platform from the [release](https://github.com/baso53/planckclaw/releases) page.
 
 ### Install from source (latest features, recommended for development)
 
 ```bash
-git clone https://github.com/sipeed/picoclaw.git
+git clone https://github.com/baso53/planckclaw.git
 
-cd picoclaw
+cd planckclaw
 make deps
 
 # Build, no need to install
@@ -160,12 +151,12 @@ make install
 
 ## 🐳 Docker Compose
 
-You can also run PicoClaw using Docker Compose without installing anything locally.
+You can also run PlanckClaw using Docker Compose without installing anything locally.
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/sipeed/picoclaw.git
-cd picoclaw
+git clone https://github.com/baso53/planckclaw.git
+cd planckclaw
 
 # 2. Set your API keys
 cp config/config.example.json config/config.json
@@ -175,11 +166,11 @@ vim config/config.json      # Set DISCORD_BOT_TOKEN, API keys, etc.
 docker compose --profile gateway up -d
 
 > [!TIP]
-> **Docker Users**: By default, the Gateway listens on `127.0.0.1` which is not accessible from the host. If you need to access the health endpoints or expose ports, set `PICOCLAW_GATEWAY_HOST=0.0.0.0` in your environment or update `config.json`.
+> **Docker Users**: By default, the Gateway listens on `127.0.0.1` which is not accessible from the host. If you need to access the health endpoints or expose ports, set `PLANCKCLAW_GATEWAY_HOST=0.0.0.0` in your environment or update `config.json`.
 
 
 # 4. Check logs
-docker compose logs -f picoclaw-gateway
+docker compose logs -f planckclaw-gateway
 
 # 5. Stop
 docker compose --profile gateway down
@@ -189,10 +180,10 @@ docker compose --profile gateway down
 
 ```bash
 # Ask a question
-docker compose run --rm picoclaw-agent -m "What is 2+2?"
+docker compose run --rm planckclaw-agent -m "What is 2+2?"
 
 # Interactive mode
-docker compose run --rm picoclaw-agent
+docker compose run --rm planckclaw-agent
 ```
 
 ### Rebuild
@@ -205,23 +196,23 @@ docker compose --profile gateway up -d
 ### 🚀 Quick Start
 
 > [!TIP]
-> Set your API key in `~/.picoclaw/config.json`.
+> Set your API key in `~/.planckclaw/config.json`.
 > Get API keys: [OpenRouter](https://openrouter.ai/keys) (LLM) · [Zhipu](https://open.bigmodel.cn/usercenter/proj-mgmt/apikeys) (LLM)
 > Web Search is **optional** - get free [Tavily API](https://tavily.com) (1000 free queries/month) or [Brave Search API](https://brave.com/search/api) (2000 free queries/month) or use built-in auto fallback.
 
 **1. Initialize**
 
 ```bash
-picoclaw onboard
+planckclaw onboard
 ```
 
-**2. Configure** (`~/.picoclaw/config.json`)
+**2. Configure** (`~/.planckclaw/config.json`)
 
 ```json
 {
   "agents": {
     "defaults": {
-      "workspace": "~/.picoclaw/workspace",
+      "workspace": "~/.planckclaw/workspace",
       "model": "gpt4",
       "max_tokens": 8192,
       "temperature": 0.7,
@@ -273,7 +264,7 @@ picoclaw onboard
 **4. Chat**
 
 ```bash
-picoclaw agent -m "What is 2+2?"
+planckclaw agent -m "What is 2+2?"
 ```
 
 That's it! You have a working AI assistant in 2 minutes.
@@ -282,7 +273,7 @@ That's it! You have a working AI assistant in 2 minutes.
 
 ## 💬 Chat Apps
 
-Talk to your picoclaw through Telegram, Discord, DingTalk, LINE, or WeCom
+Talk to your planckclaw through Telegram, Discord, DingTalk, LINE, or WeCom
 
 | Channel      | Setup                              |
 | ------------ | ---------------------------------- |
@@ -321,7 +312,7 @@ Talk to your picoclaw through Telegram, Discord, DingTalk, LINE, or WeCom
 **3. Run**
 
 ```bash
-picoclaw gateway
+planckclaw gateway
 ```
 
 </details>
@@ -373,7 +364,7 @@ Set `"mention_only": true` to make the bot respond only when @-mentioned. Useful
 **6. Run**
 
 ```bash
-picoclaw gateway
+planckclaw gateway
 ```
 
 </details>
@@ -406,7 +397,7 @@ picoclaw gateway
 **3. Run**
 
 ```bash
-picoclaw gateway
+planckclaw gateway
 ```
 
 </details>
@@ -440,7 +431,7 @@ picoclaw gateway
 **3. Run**
 
 ```bash
-picoclaw gateway
+planckclaw gateway
 ```
 </details>
 
@@ -485,19 +476,19 @@ Then set the Webhook URL in LINE Developers Console to `https://your-domain/webh
 **4. Run**
 
 ```bash
-picoclaw gateway
+planckclaw gateway
 ```
 
 > In group chats, the bot responds only when @mentioned. Replies quote the original message.
 
-> **Docker Compose**: Add `ports: ["18791:18791"]` to the `picoclaw-gateway` service to expose the webhook port.
+> **Docker Compose**: Add `ports: ["18791:18791"]` to the `planckclaw-gateway` service to expose the webhook port.
 
 </details>
 
 <details>
 <summary><b>WeCom (企业微信)</b></summary>
 
-PicoClaw supports two types of WeCom integration:
+PlanckClaw supports two types of WeCom integration:
 
 **Option 1: WeCom Bot (智能机器人)** - Easier setup, supports group chats
 **Option 2: WeCom App (自建应用)** - More features, proactive messaging
@@ -567,7 +558,7 @@ See [WeCom App Configuration Guide](docs/wecom-app-configuration.md) for detaile
 **4. Run**
 
 ```bash
-picoclaw gateway
+planckclaw gateway
 ```
 
 > **Note**: WeCom App requires opening port 18792 for webhook callbacks. Use a reverse proxy for HTTPS.
@@ -576,20 +567,20 @@ picoclaw gateway
 
 ## <img src="assets/clawdchat-icon.png" width="24" height="24" alt="ClawdChat"> Join the Agent Social Network
 
-Connect Picoclaw to the Agent Social Network simply by sending a single message via the CLI or any integrated Chat App.
+Connect Planckclaw to the Agent Social Network simply by sending a single message via the CLI or any integrated Chat App.
 
 **Read `https://clawdchat.ai/skill.md` and follow the instructions to join [ClawdChat.ai](https://clawdchat.ai)**
 
 ## ⚙️ Configuration
 
-Config file: `~/.picoclaw/config.json`
+Config file: `~/.planckclaw/config.json`
 
 ### Workspace Layout
 
-PicoClaw stores data in your configured workspace (default: `~/.picoclaw/workspace`):
+PlanckClaw stores data in your configured workspace (default: `~/.planckclaw/workspace`):
 
 ```
-~/.picoclaw/workspace/
+~/.planckclaw/workspace/
 ├── sessions/          # Conversation sessions and history
 ├── memory/           # Long-term memory (MEMORY.md)
 ├── state/            # Persistent state (last channel, etc.)
@@ -605,7 +596,7 @@ PicoClaw stores data in your configured workspace (default: `~/.picoclaw/workspa
 
 ### 🔒 Security Sandbox
 
-PicoClaw runs in a sandboxed environment by default. The agent can only access files and execute commands within the configured workspace.
+PlanckClaw runs in a sandboxed environment by default. The agent can only access files and execute commands within the configured workspace.
 
 #### Default Configuration
 
@@ -613,7 +604,7 @@ PicoClaw runs in a sandboxed environment by default. The agent can only access f
 {
   "agents": {
     "defaults": {
-      "workspace": "~/.picoclaw/workspace",
+      "workspace": "~/.planckclaw/workspace",
       "restrict_to_workspace": true
     }
   }
@@ -622,7 +613,7 @@ PicoClaw runs in a sandboxed environment by default. The agent can only access f
 
 | Option                  | Default                 | Description                               |
 | ----------------------- | ----------------------- | ----------------------------------------- |
-| `workspace`             | `~/.picoclaw/workspace` | Working directory for the agent           |
+| `workspace`             | `~/.planckclaw/workspace` | Working directory for the agent           |
 | `restrict_to_workspace` | `true`                  | Restrict file/command access to workspace |
 
 #### Protected Tools
@@ -680,7 +671,7 @@ If you need the agent to access paths outside the workspace:
 **Method 2: Environment variable**
 
 ```bash
-export PICOCLAW_AGENTS_DEFAULTS_RESTRICT_TO_WORKSPACE=false
+export PLANCKCLAW_AGENTS_DEFAULTS_RESTRICT_TO_WORKSPACE=false
 ```
 
 > ⚠️ **Warning**: Disabling this restriction allows the agent to access any path on your system. Use with caution in controlled environments only.
@@ -699,7 +690,7 @@ All paths share the same workspace restriction — there's no way to bypass the 
 
 ### Heartbeat (Periodic Tasks)
 
-PicoClaw can perform periodic tasks automatically. Create a `HEARTBEAT.md` file in your workspace:
+PlanckClaw can perform periodic tasks automatically. Create a `HEARTBEAT.md` file in your workspace:
 
 ```markdown
 # Periodic Tasks
@@ -773,8 +764,8 @@ The subagent has access to tools (message, web_search, etc.) and can communicate
 
 **Environment variables:**
 
-* `PICOCLAW_HEARTBEAT_ENABLED=false` to disable
-* `PICOCLAW_HEARTBEAT_INTERVAL=60` to change interval
+* `PLANCKCLAW_HEARTBEAT_ENABLED=false` to disable
+* `PLANCKCLAW_HEARTBEAT_INTERVAL=60` to change interval
 
 ### Providers
 
@@ -795,7 +786,7 @@ The subagent has access to tools (message, web_search, etc.) and can communicate
 
 ### Model Configuration (model_list)
 
-> **What's New?** PicoClaw now uses a **model-centric** configuration approach. Simply specify `vendor/model` format (e.g., `zhipu/glm-4.7`) to add new providers—**zero code changes required!**
+> **What's New?** PlanckClaw now uses a **model-centric** configuration approach. Simply specify `vendor/model` format (e.g., `zhipu/glm-4.7`) to add new providers—**zero code changes required!**
 
 This design also enables **multi-agent support** with flexible provider selection:
 
@@ -897,7 +888,7 @@ This design also enables **multi-agent support** with flexible provider selectio
 }
 ```
 
-> Run `picoclaw auth login --provider anthropic` to paste your API token.
+> Run `planckclaw auth login --provider anthropic` to paste your API token.
 
 **Ollama (local)**
 
@@ -921,7 +912,7 @@ This design also enables **multi-agent support** with flexible provider selectio
 
 #### Load Balancing
 
-Configure multiple endpoints for the same model name—PicoClaw will automatically round-robin between them:
+Configure multiple endpoints for the same model name—PlanckClaw will automatically round-robin between them:
 
 ```json
 {
@@ -988,7 +979,7 @@ For detailed migration guide, see [docs/migration/model-list-migration.md](docs/
 
 ### Provider Architecture
 
-PicoClaw routes providers by protocol family:
+PlanckClaw routes providers by protocol family:
 
 - OpenAI-compatible protocol: OpenRouter, OpenAI-compatible gateways, Groq, Zhipu, and vLLM-style endpoints.
 - Anthropic protocol: Claude-native API behavior.
@@ -1009,7 +1000,7 @@ This keeps the runtime lightweight while making new OpenAI-compatible backends m
 {
   "agents": {
     "defaults": {
-      "workspace": "~/.picoclaw/workspace",
+      "workspace": "~/.planckclaw/workspace",
       "model": "glm-4.7",
       "max_tokens": 8192,
       "temperature": 0.7,
@@ -1028,7 +1019,7 @@ This keeps the runtime lightweight while making new OpenAI-compatible backends m
 **3. Run**
 
 ```bash
-picoclaw agent -m "Hello"
+planckclaw agent -m "Hello"
 ```
 
 </details>
@@ -1109,29 +1100,29 @@ picoclaw agent -m "Hello"
 
 | Command                   | Description                   |
 | ------------------------- | ----------------------------- |
-| `picoclaw onboard`        | Initialize config & workspace |
-| `picoclaw agent -m "..."` | Chat with the agent           |
-| `picoclaw agent`          | Interactive chat mode         |
-| `picoclaw gateway`        | Start the gateway             |
-| `picoclaw status`         | Show status                   |
-| `picoclaw cron list`      | List all scheduled jobs       |
-| `picoclaw cron add ...`   | Add a scheduled job           |
+| `planckclaw onboard`        | Initialize config & workspace |
+| `planckclaw agent -m "..."` | Chat with the agent           |
+| `planckclaw agent`          | Interactive chat mode         |
+| `planckclaw gateway`        | Start the gateway             |
+| `planckclaw status`         | Show status                   |
+| `planckclaw cron list`      | List all scheduled jobs       |
+| `planckclaw cron add ...`   | Add a scheduled job           |
 
 ### Scheduled Tasks / Reminders
 
-PicoClaw supports scheduled reminders and recurring tasks through the `cron` tool:
+PlanckClaw supports scheduled reminders and recurring tasks through the `cron` tool:
 
 * **One-time reminders**: "Remind me in 10 minutes" → triggers once after 10min
 * **Recurring tasks**: "Remind me every 2 hours" → triggers every 2 hours
 * **Cron expressions**: "Remind me at 9am daily" → uses cron expression
 
-Jobs are stored in `~/.picoclaw/workspace/cron/` and processed automatically.
+Jobs are stored in `~/.planckclaw/workspace/cron/` and processed automatically.
 
 ## 🤝 Contribute & Roadmap
 
 PRs welcome! The codebase is intentionally small and readable. 🤗
 
-See our full [Community Roadmap](https://github.com/sipeed/picoclaw/blob/main/ROADMAP.md).
+See our full [Community Roadmap](https://github.com/baso53/planckclaw/blob/main/ROADMAP.md).
 
 Developer group building, join after your first merged PR!
 
@@ -1139,20 +1130,20 @@ User Groups:
 
 discord: <https://discord.gg/V4sAZ9XWpN>
 
-<img src="assets/wechat.png" alt="PicoClaw" width="512">
+<img src="assets/wechat.png" alt="PlanckClaw" width="512">
 
 ## 🐛 Troubleshooting
 
 ### Web search says "API 配置问题"
 
-This is normal if you haven't configured a search API key yet. PicoClaw will provide helpful links for manual searching.
+This is normal if you haven't configured a search API key yet. PlanckClaw will provide helpful links for manual searching.
 
 To enable web search:
 
 1. **Option 1 (Recommended)**: Get a free API key at [https://brave.com/search/api](https://brave.com/search/api) (2000 free queries/month) for the best results.
 2. **Option 2 (No Credit Card)**: If you don't have a key, we automatically fall back to **DuckDuckGo** (no key required).
 
-Add the key to `~/.picoclaw/config.json` if using Brave:
+Add the key to `~/.planckclaw/config.json` if using Brave:
 
 ```json
 {
@@ -1178,7 +1169,7 @@ Some providers (like Zhipu) have content filtering. Try rephrasing your query or
 
 ### Telegram bot says "Conflict: terminated by other getUpdates"
 
-This happens when another instance of the bot is running. Make sure only one `picoclaw gateway` is running at a time.
+This happens when another instance of the bot is running. Make sure only one `planckclaw gateway` is running at a time.
 
 ---
 

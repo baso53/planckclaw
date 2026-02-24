@@ -1,4 +1,4 @@
-// PicoClaw - Ultra-lightweight personal AI agent
+// PlanckClaw - Ultra-lightweight personal AI agent
 // License: MIT
 
 package main
@@ -14,10 +14,10 @@ import (
 
 	"github.com/chzyer/readline"
 
-	"github.com/sipeed/picoclaw/pkg/agent"
-	"github.com/sipeed/picoclaw/pkg/bus"
-	"github.com/sipeed/picoclaw/pkg/logger"
-	"github.com/sipeed/picoclaw/pkg/providers"
+	"github.com/baso53/planckclaw/pkg/agent"
+	"github.com/baso53/planckclaw/pkg/bus"
+	"github.com/baso53/planckclaw/pkg/logger"
+	"github.com/baso53/planckclaw/pkg/providers"
 )
 
 func agentCmd() {
@@ -100,7 +100,7 @@ func interactiveMode(agentLoop *agent.AgentLoop, sessionKey string) {
 
 	rl, err := readline.NewEx(&readline.Config{
 		Prompt:          prompt,
-		HistoryFile:     filepath.Join(os.TempDir(), ".picoclaw_history"),
+		HistoryFile:     filepath.Join(os.TempDir(), ".planckclaw_history"),
 		HistoryLimit:    100,
 		InterruptPrompt: "^C",
 		EOFPrompt:       "exit",

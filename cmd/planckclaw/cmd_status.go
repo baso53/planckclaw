@@ -1,4 +1,4 @@
-// PicoClaw - Ultra-lightweight personal AI agent
+// PlanckClaw - Ultra-lightweight personal AI agent
 // License: MIT
 
 package main
@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sipeed/picoclaw/pkg/auth"
+	"github.com/baso53/planckclaw/pkg/auth"
 )
 
 func statusCmd() {
@@ -19,7 +19,7 @@ func statusCmd() {
 
 	configPath := getConfigPath()
 
-	fmt.Printf("%s picoclaw Status\n", logo)
+	fmt.Printf("%s planckclaw Status\n", logo)
 	fmt.Printf("Version: %s\n", formatVersion())
 	build, _ := formatBuildInfo()
 	if build != "" {

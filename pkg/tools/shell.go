@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sipeed/picoclaw/pkg/config"
+	"github.com/baso53/planckclaw/pkg/config"
 )
 
 type ExecTool struct {

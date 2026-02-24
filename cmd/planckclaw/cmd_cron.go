@@ -1,4 +1,4 @@
-// PicoClaw - Ultra-lightweight personal AI agent
+// PlanckClaw - Ultra-lightweight personal AI agent
 // License: MIT
 
 package main
@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/sipeed/picoclaw/pkg/cron"
+	"github.com/baso53/planckclaw/pkg/cron"
 )
 
 func cronCmd() {
@@ -36,7 +36,7 @@ func cronCmd() {
 		cronAddCmd(cronStorePath)
 	case "remove":
 		if len(os.Args) < 4 {
-			fmt.Println("Usage: picoclaw cron remove <job_id>")
+			fmt.Println("Usage: planckclaw cron remove <job_id>")
 			return
 		}
 		cronRemoveCmd(cronStorePath, os.Args[3])
@@ -206,7 +206,7 @@ func cronRemoveCmd(storePath, jobID string) {
 
 func cronEnableCmd(storePath string, disable bool) {
 	if len(os.Args) < 4 {
-		fmt.Println("Usage: picoclaw cron enable/disable <job_id>")
+		fmt.Println("Usage: planckclaw cron enable/disable <job_id>")
 		return
 	}
 
